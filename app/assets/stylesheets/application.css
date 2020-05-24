@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix ::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+.top {
+	width: 100%;
+	margin: 100px 500px;
+}

@@ -37,3 +37,52 @@ li {
 	width: 100%;
 	margin: 100px 500px;
 }
+
+/* ヘッダー */
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #ddd;
+}
+
+.header-contents, .main-contents, .footer-contents {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-title {
+	font-size: 30px;
+	float: left;
+	padding-top: 10px;
+}
+
+.nav-list {
+	display: flex;
+	float: right;
+	line-height: 100px;
+}
+
+.nav-list-item {
+	padding-right: 20px;
+}
+
+main {
+	width: 100%;
+}
+
+.glyphicon-wrench {
+	border: 1px solid #ddd;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+/* フッター */
+
+footer {
+	width: 100%;
+}
+
+.footer-item {
+	float: right;
+}
